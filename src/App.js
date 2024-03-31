@@ -1,17 +1,23 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { Navbar } from "flowbite-react";
 import React from "react";
+// import Home from "./Components/Home.jsx"
 import Navbar from "./Components/Navbar/Navbar.jsx";
-// import Footer  from "./Components/Footer/Footer.jsx";
-import Pg1 from "./Components/page1.jsx"
-import SlideBar from "./Components/SideBar/SideBar.jsx"
+
+import Footer  from "./Components/Footer/Footer.jsx";
+import Sidebar from "./Components/Sidebar.jsx"
+
+// import Contact from "./Components/SideBar/Contact.jsx";
+// import HTU from "./Components/HowToUse.jsx";
+import Booking from "./Components/BookATicket.jsx"
 function App() {
   return (
     <>
-      <SlideBar/>
+      <Sidebar/>
       <Navbar />
-      <Pg1/>
-      {/* <Footer/> */}
+      {/* <Home /> */}
+      {/* <Contact/> */}
+      {/* <HTU /> */}
+      <Booking/>
+      <Footer/>
     </>
   );
 }

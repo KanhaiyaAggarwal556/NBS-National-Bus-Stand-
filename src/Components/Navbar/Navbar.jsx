@@ -3,6 +3,7 @@ import SearchBar from "./Searchbar";
 import Language from "./Language";
 import Account from "./Account";
 import "flowbite";
+
 const Navbar = () => {
   return (
     <>
