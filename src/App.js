@@ -1,22 +1,22 @@
 import React from "react";
-// import Home from "./Components/Home.jsx"
+import Home from "./Components/Home.jsx"
 import Navbar from "./Components/Navbar/Navbar.jsx";
 
 import Footer  from "./Components/Footer/Footer.jsx";
-import Sidebar from "./Components/Sidebar.jsx"
+import Sidebar from "./Components/SideBar/Sidebar.jsx"
 
 // import Contact from "./Components/SideBar/Contact.jsx";
 // import HTU from "./Components/HowToUse.jsx";
-import Booking from "./Components/BookATicket.jsx"
+// import Booking from "./Components/SideBar/BookATicket.jsx"
 function App() {
   return (
     <>
       <Sidebar/>
       <Navbar />
-      {/* <Home /> */}
+      <Home />
       {/* <Contact/> */}
       {/* <HTU /> */}
-      <Booking/>
+      {/* <Booking/> */}
       <Footer/>
     </>
   );
