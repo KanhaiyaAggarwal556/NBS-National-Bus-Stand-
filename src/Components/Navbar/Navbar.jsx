@@ -1,4 +1,4 @@
-import Sidebar from "./Sidebar";
+import Sidebar from "../Sidebar";
 import SearchBar from "./Searchbar";
 import Language from "./Language";
 import Account from "./Account";
