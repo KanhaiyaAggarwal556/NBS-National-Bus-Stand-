@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 ">
       <div className="container mx-auto py-10">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
           Welcome to Bus Tracking System
@@ -12,7 +12,9 @@ const Home = () => {
         </p>
         <div className="flex justify-center">
           <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-            Get Started
+            <a link rel="" type="" href="../src/Components/Login.jsx">
+              Get Started
+            </a>
           </button>
         </div>
       </div>

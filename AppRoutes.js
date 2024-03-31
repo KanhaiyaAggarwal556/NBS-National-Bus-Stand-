@@ -10,36 +10,36 @@ import Contact from './Components/Contact'
 export const AppRouter = createBrowserRouter([
     {
         path: '/',
-        element: <AppLayout/>,
+        element: <Home />,
         children : [
             {
                 path: '/',
                 element: <Home/>
             },
-        //     {
-        //         path: '/allbuses',
-        //         element: <AllBusesList/>
-        //     },
-        //     {
-        //         path: '/login',
-        //         element: <Login/>
-        //     },
-        //     {
-        //         path: '/allbusstand',
-        //         element: <AllBusStands/>
-        //     },
-        //     {
-        //         path: '/pro',
-        //         element: <Home/>
-        //     },
-        //     {
-        //         path: '/profile',
-        //         element: <UserProfile/>
-        //     },
-        //     {
-        //         path: '/contact',
-        //         element: <Contact/>
-        //     },
+            {
+                path: '/allbuses',
+                element: <AllBusesList/>
+            },
+            {
+                path: '/login',
+                element: <Login/>
+            },
+            {
+                path: '/allbusstand',
+                element: <AllBusStands/>
+            },
+            {
+                path: '/pro',
+                element: <Home/>
+            },
+            {
+                path: '/profile',
+                element: <UserProfile/>
+            },
+            {
+                path: '/contact',
+                element: <Contact/>
+            },
         ]
     },
     // {
