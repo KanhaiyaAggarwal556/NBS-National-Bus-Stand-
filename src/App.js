@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Sidebar />
-      {/* <Home /> */}
+      <Home />
       <Contact />
       <Footer/>
     </>

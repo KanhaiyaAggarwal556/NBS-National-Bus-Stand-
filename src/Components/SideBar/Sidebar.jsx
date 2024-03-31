@@ -1,6 +1,3 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-
 const Sidebar = () => {
   return (
     <>
@@ -70,15 +67,7 @@ const Sidebar = () => {
                 href="#"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
-                <span className="ms-3">
-                  <NavLink to="/allbusstand">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      Search Nearest
-                    </li>
-                  </NavLink>
-                </span>
+                <span className="ms-3">Search Nearest</span>
               </a>
             </li>
             <li>
@@ -87,22 +76,10 @@ const Sidebar = () => {
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="flex-1 ms-3 whitespace-nowrap">
-                  <NavLink to="/allbusstand">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      All Bus Stands
-                    </li>
-                  </NavLink>
+                  All Bus Stands
                 </span>
                 <span className="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
-                  <NavLink to="/pro">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      pro
-                    </li>
-                  </NavLink>
+                  Pro
                 </span>
               </a>
             </li>
@@ -112,13 +89,7 @@ const Sidebar = () => {
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="flex-1 ms-3 whitespace-nowrap">
-                  <NavLink to="/allbusstand">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      Favourites
-                    </li>
-                  </NavLink>
+                  Favourites
                 </span>
                 <span className="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
                   3
@@ -131,13 +102,7 @@ const Sidebar = () => {
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="flex-1 ms-3 whitespace-nowrap">
-                  <NavLink to="/allbusstand">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      Book a TKT
-                    </li>
-                  </NavLink>
+                  Book a TKT
                 </span>
               </a>
             </li>
@@ -147,13 +112,7 @@ const Sidebar = () => {
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="flex-1 ms-3 whitespace-nowrap">
-                  <NavLink to="/allbusstand">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      Famous Places
-                    </li>
-                  </NavLink>
+                  Famous Places
                 </span>
               </a>
             </li>
@@ -163,13 +122,7 @@ const Sidebar = () => {
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <span className="flex-1 ms-3 whitespace-nowrap">
-                  <NavLink to="/allbusstand">
-                    <li
-                      className={`px-3 py-2 font-medium rounded-lg text-slate-700 hover:bg-slate-300 hover:text-slate-700 focus:rounded-t-lg`}
-                    >
-                      How to Book?
-                    </li>
-                  </NavLink>
+                  How to Book?
                 </span>
               </a>
             </li>
