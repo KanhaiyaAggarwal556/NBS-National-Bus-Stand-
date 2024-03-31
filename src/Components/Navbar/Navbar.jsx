@@ -1,4 +1,4 @@
-import Sidebar from "../SideBar/Sidebar";
+// import Sidebar from "../SideBar/Sidebar";
 import SearchBar from "./Searchbar";
 import Language from "./Language";
 import Account from "./Account";
@@ -25,7 +25,7 @@ const Navbar = () => {
           </a>
           <Language />
           <SearchBar />
-          <Sidebar />
+          {/* <Sidebar /> */}
           <Account />
         </div>
       </nav>
